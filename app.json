@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "MotionBoard",
+    "slug": "motionboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "motionboard",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B0D0C"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/icon.png"
+    }
+  }
+}

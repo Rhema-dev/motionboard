@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+.pdfdeps/
+dist/
+npm-debug.log*
+*.tsbuildinfo
+
