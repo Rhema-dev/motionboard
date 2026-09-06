@@ -13,7 +13,7 @@ export function CollapsibleHeader({ balance, income, spending, scrollY }: { bala
     <Animated.View style={[styles.header, headerStyle]}>
       <View style={styles.topline}>
         <View style={styles.brand}><Image source={require('../../assets/icon.png')} style={styles.logo} /><Text style={styles.brandName}>MOTIONBOARD</Text></View>
-        <View style={styles.live}><View style={styles.liveDot} /><Text style={styles.liveText}>LIVE LEDGER</Text></View>
+        {/* <View style={styles.live}><View style={styles.liveDot} /><Text style={styles.liveText}>LIVE LEDGER</Text></View> */}
       </View>
       <View>
         <Text style={styles.eyebrow}>AVAILABLE BALANCE / 06 SEP</Text>
